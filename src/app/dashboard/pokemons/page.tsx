@@ -1,4 +1,4 @@
-import { PokemonsResponse, SimplePokemon, PokemonGrid } from "@/app/pokemon";
+import { PokemonsResponse, SimplePokemon, PokemonGrid } from "@/pokemon";
 
 const getPokemons = async (
   limit = 20,
@@ -16,7 +16,7 @@ const getPokemons = async (
   return pokemons;
 };
 
-export default async function PokemonPage() {
+export default async function PokemonsPage() {
   const pokemons = await getPokemons(151);
 
   return (

@@ -21,7 +21,7 @@ const menuItems = [
     subtitle: "Contador Client Side",
   },
   {
-    path: "/dashboard/pokemon",
+    path: "/dashboard/pokemons",
     icon: <IoFootballOutline />,
     title: "Pokémon",
     subtitle: "Generación estática",
