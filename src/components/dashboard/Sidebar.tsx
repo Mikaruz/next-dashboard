@@ -3,6 +3,7 @@ import {
   IoBrowsersOutline,
   IoCalculatorOutline,
   IoFootballOutline,
+  IoHeadsetOutline,
   IoLogoReact,
 } from "react-icons/io5";
 import { SidebarMenuItem } from "./SidebarMenuItem";
@@ -10,21 +11,27 @@ import { SidebarMenuItem } from "./SidebarMenuItem";
 const menuItems = [
   {
     path: "/dashboard/main",
-    icon: <IoBrowsersOutline />,
+    icon: <IoBrowsersOutline size={40} />,
     title: "Dashboard",
     subtitle: "Visualización",
   },
   {
     path: "/dashboard/counter",
-    icon: <IoCalculatorOutline />,
+    icon: <IoCalculatorOutline size={40} />,
     title: "Counter",
     subtitle: "Contador Client Side",
   },
   {
     path: "/dashboard/pokemons",
-    icon: <IoFootballOutline />,
+    icon: <IoFootballOutline size={40} />,
     title: "Pokémon",
     subtitle: "Generación estática",
+  },
+  {
+    path: "/dashboard/favorites",
+    icon: <IoHeadsetOutline size={40} />,
+    title: "Favoritos",
+    subtitle: "Global State",
   },
 ];
 
